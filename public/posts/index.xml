@@ -6,7 +6,7 @@
     <description>Recent content in 📚 文章 on tkk&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Apr 2026 08:23:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 10:52:09 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TinyKV Raft Review</title>
@@ -44,11 +44,11 @@
       <description>docker环境配置记录</description>
     </item>
     <item>
-      <title>CMU 15445 24fall Project2</title>
-      <link>http://localhost:1313/cmu-15445-24fall-project2/</link>
+      <title>Bustub B&#43;Tree Index Review</title>
+      <link>http://localhost:1313/bustub-b-tree-index-review/</link>
       <pubDate>Fri, 21 Mar 2025 15:34:02 +0800</pubDate>
-      <guid>http://localhost:1313/cmu-15445-24fall-project2/</guid>
-      <description>CMU 15445 24fall Project2 实现及优化</description>
+      <guid>http://localhost:1313/bustub-b-tree-index-review/</guid>
+      <description>CMU 15445 24fall Project2 Bustub B&#43;Tree Index 实现细节、并发控制与复习总结</description>
     </item>
     <item>
       <title>本地Ubuntu22.04虚拟机配置固定IP和VPN</title>
