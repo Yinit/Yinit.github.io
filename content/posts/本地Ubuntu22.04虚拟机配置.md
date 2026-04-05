@@ -83,7 +83,7 @@ sudo netplan apply
 ## 配置VPN代理
 
 1. 在本地VPN代理中开启局域网连接，我使用的是Clash Verge
-![VPN代理工具设置](/images/ClashVerge-Setting.png)
+![VPN代理工具设置](/images/ubuntu-vm/ClashVerge-Setting.png)
 2. 在.bashrc文件中添加代理
 
 ```bash

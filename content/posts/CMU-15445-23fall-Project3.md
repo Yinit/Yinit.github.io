@@ -36,13 +36,13 @@ cover:
 
 project3开始真正进入数据库的实现了，通过实现这一部分内容，你会对数据库的基本结构有一个清晰的认识，在这一部分中需要多读代码，具体实现较为简单，需要对数据库的整体实现结构有一个清晰的认识才好实现这一部分内容。这一部分的leaderboard我没有做，感觉设计不是很好，不太感兴趣，就没写这部分，看榜单也没几个人写这个，我这里就放一下100分的截图。
 
-![Project3-LeaderBoard](/images/23fall-Project3-LeaderBoard.png)
+![Project3-LeaderBoard](/images/cmu-15445-23fall-p3/23fall-Project3-LeaderBoard.png)
 
 ## Project3 总体概述
 
 这里介绍下我对下面这个整体流程图的认识：首先由事务管理器创建事务，然后由事务执行SQL语句，然后开始解析SQL语句(Parser)(在bustub_instance中)，根据解析出来的语句与相应的关键字进行绑定(Binder)，然后构建出执行树(Planner)，再之后对语法树进行优化(Optimizer)(调整结构，在bustub中是逻辑优化，安装固定顺序执行设定好的优化)。语法树优化完毕后便将其传递到执行器中执行(Executor)(包含执行的上下文即事务、相关数据如索引表、table表，Expression如where表达式中的谓词)，执行器使用火山模型，自底向上分层执行，上层调用下层获取执行结果，并将本层的执行结果传递给更上层。火山模型优点挺多，设计简单，各层解耦合，执行效率也比较高。
 
-![project-structure](/images/project-structure.svg)
+![project-structure](/images/cmu-15445-23fall-p3/project-structure.svg)
 
 总体来说，这一章并不难，关键在于与前面两章完全解耦（前面两章为索引和底层的缓冲池，索引和表都在用），在本章中需要阅读大量代码，对整个项目有一个基本的认识，才能够着手开始实现执行器和优化器中的业务逻辑，业务逻辑实现并不复杂，关键还是读代码学习简易数据库的设计。
 

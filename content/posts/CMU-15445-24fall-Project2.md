@@ -34,7 +34,7 @@ cover:
 
 下面是最终结果，挑了个有意思的。
 
-![24fall-Project2-LeaderBoard](/images/24fall-Project2-LeaderBoard.png)
+![24fall-Project2-LeaderBoard](/images/cmu-15445-24fall-p2/24fall-Project2-LeaderBoard.png)
 
 ## InternalPae && LeafPage
 

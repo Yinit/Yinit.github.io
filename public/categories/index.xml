@@ -72,20 +72,6 @@
       <description></description>
     </item>
     <item>
-      <title>Conda</title>
-      <link>http://localhost:1313/categories/conda/</link>
-      <pubDate>Sun, 23 Mar 2025 10:02:43 +0800</pubDate>
-      <guid>http://localhost:1313/categories/conda/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/categories/python/</link>
-      <pubDate>Sun, 23 Mar 2025 10:02:43 +0800</pubDate>
-      <guid>http://localhost:1313/categories/python/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Docker</title>
       <link>http://localhost:1313/categories/docker/</link>
       <pubDate>Sat, 22 Mar 2025 10:18:12 +0800</pubDate>
@@ -135,10 +121,24 @@
       <description></description>
     </item>
     <item>
-      <title>CMU15445 23fall</title>
-      <link>http://localhost:1313/categories/cmu15445-23fall/</link>
+      <title>BufferPool</title>
+      <link>http://localhost:1313/categories/bufferpool/</link>
       <pubDate>Mon, 27 Jan 2025 11:12:32 +0800</pubDate>
-      <guid>http://localhost:1313/categories/cmu15445-23fall/</guid>
+      <guid>http://localhost:1313/categories/bufferpool/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bustub</title>
+      <link>http://localhost:1313/categories/bustub/</link>
+      <pubDate>Mon, 27 Jan 2025 11:12:32 +0800</pubDate>
+      <guid>http://localhost:1313/categories/bustub/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CMU15445</title>
+      <link>http://localhost:1313/categories/cmu15445/</link>
+      <pubDate>Mon, 27 Jan 2025 11:12:32 +0800</pubDate>
+      <guid>http://localhost:1313/categories/cmu15445/</guid>
       <description></description>
     </item>
     <item>

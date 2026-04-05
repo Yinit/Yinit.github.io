@@ -36,7 +36,7 @@ cover:
 
 Project2开始涉及到数据库索引的底层实现，今年做的是可扩展哈希，相比于B+树要简单不少，推荐学有余力的同学去做一下其他年份的B+树，总体来说没做多久，比Project1花的时间稍多一点。然后说一下LeaderBoard结果吧，截止2025/01/30排名第6
 
-![Project2-LeaderBoard](/images/23fall-Project2-LeaderBoard.png)
+![Project2-LeaderBoard](/images/cmu-15445-23fall-p2/23fall-Project2-LeaderBoard.png)
 
 时间有点久远，实现细节基本都忘了，讲一下我的整体思路吧
 

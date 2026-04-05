@@ -35,7 +35,7 @@ cover:
 ## 前言
 
 老规矩，先看一下最终排名，截止2025/02/10, 总分第7，单榜第1，打开LeaderBoard第一个就是我了（嘿嘿）
-![Project4-LeaderBoard](/images/23fall-Project4-LeaderBoard.png)
+![Project4-LeaderBoard](/images/cmu-15445-23fall-p4/23fall-Project4-LeaderBoard.png)
 
 个人认为project4完全做完应该是4个project中最难的吧，花的时间是最多的，不过开始写的时候刚好考试比较多，没多少时间写，大概花了几天时间把前几个task完成了，最后在考试完后回家写了几天才写完。虽然可能没写太久，但是感觉花费的精力挺多的。最后还是课程中那句话，有空闲时间再写写这个，优先去做更重要的事情。
 

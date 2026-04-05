@@ -403,7 +403,7 @@ git push -u origin main
 
 访问github仓库，选择 Settings > Pages , 将Build and deployment中source设置为Github Actions
 
-![部署GithubPages](/images/GitHubPages.png)
+![部署GithubPages](/images/hugo-blog/GitHubPages.png)
 
 ## 配置Github Actions
 
