@@ -6,7 +6,7 @@
     <description>Recent content in 🏠 主页 on tkk&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Apr 2026 11:53:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 13:38:48 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TinyKV Raft Review</title>
@@ -37,11 +37,11 @@
       <description>LSM-Tree学习记录</description>
     </item>
     <item>
-      <title>Docker配置一条龙</title>
-      <link>http://localhost:1313/docker%E9%85%8D%E7%BD%AE%E4%B8%80%E6%9D%A1%E9%BE%99/</link>
-      <pubDate>Sat, 22 Mar 2025 10:18:12 +0800</pubDate>
-      <guid>http://localhost:1313/docker%E9%85%8D%E7%BD%AE%E4%B8%80%E6%9D%A1%E9%BE%99/</guid>
-      <description>docker环境配置记录</description>
+      <title>Docker开发环境配置</title>
+      <link>http://localhost:1313/docker%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sat, 22 Mar 2025 10:18:12 +0000</pubDate>
+      <guid>http://localhost:1313/docker%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</guid>
+      <description>docker中开启VPN虚拟网卡模式，劫持全局流量，高权限全局代理沙盒开发环境</description>
     </item>
     <item>
       <title>Bustub B&#43;Tree Index</title>
