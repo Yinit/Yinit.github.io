@@ -6,7 +6,7 @@
     <description>Recent content in 🏠 主页 on tkk&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Apr 2026 11:09:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 11:28:24 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TinyKV Raft Review</title>
@@ -44,10 +44,10 @@
       <description>docker环境配置记录</description>
     </item>
     <item>
-      <title>Bustub B&#43;Tree Index Review</title>
-      <link>http://localhost:1313/bustub-b-tree-index-review/</link>
+      <title>Bustub B&#43;Tree Index</title>
+      <link>http://localhost:1313/bustub-b-tree-index/</link>
       <pubDate>Fri, 21 Mar 2025 15:34:02 +0800</pubDate>
-      <guid>http://localhost:1313/bustub-b-tree-index-review/</guid>
+      <guid>http://localhost:1313/bustub-b-tree-index/</guid>
       <description>CMU 15445 24fall Project2 Bustub B&#43;Tree Index 实现细节、并发控制与复习总结</description>
     </item>
     <item>
@@ -65,6 +65,13 @@
       <description>CMU 15445 23fall Project4 实现</description>
     </item>
     <item>
+      <title>BusTub Query Execution</title>
+      <link>http://localhost:1313/bustub-query-execution/</link>
+      <pubDate>Tue, 04 Feb 2025 17:01:06 +0800</pubDate>
+      <guid>http://localhost:1313/bustub-query-execution/</guid>
+      <description>CMU 15445 23fall Project3 Query Execution 实现与深度复习</description>
+    </item>
+    <item>
       <title>CMU 15445 23fall Project3</title>
       <link>http://localhost:1313/cmu-15445-23fall-project3/</link>
       <pubDate>Tue, 04 Feb 2025 17:01:06 +0800</pubDate>
@@ -79,10 +86,10 @@
       <description>CMU 15445 23fall Project2 可扩展哈希索引实现过程记录与系统性复习</description>
     </item>
     <item>
-      <title>Bustub BufferPool Review</title>
-      <link>http://localhost:1313/bustub-bufferpool-review/</link>
+      <title>Bustub BufferPool</title>
+      <link>http://localhost:1313/bustub-bufferpool/</link>
       <pubDate>Mon, 27 Jan 2025 11:12:32 +0800</pubDate>
-      <guid>http://localhost:1313/bustub-bufferpool-review/</guid>
+      <guid>http://localhost:1313/bustub-bufferpool/</guid>
       <description>CMU 15445 BusTub Project1 实现、优化与工业级缓存池设计演变（以 Milvus 为例）</description>
     </item>
     <item>

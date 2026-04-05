@@ -5,7 +5,7 @@ lastMod: 2026-04-05T10:52:09Z
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: ["CMU15445 24fall", C++]
+categories: ["CMU15445", "Bustub", "B+Tree"]
 
 tags: ["CMU15445", "Bustub", "B+Tree"]
 

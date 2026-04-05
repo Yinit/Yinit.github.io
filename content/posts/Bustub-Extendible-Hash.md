@@ -5,11 +5,11 @@ lastMod: 2026-04-05T11:09:34Z
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: ["CMU 15445 23fall", "C++"]
+categories: ["CMU15445", "Bustub", "Extendible Hash"]
 
-tags: ["database", "C++", "Project"]
+tags: ["CMU15445", "Bustub", "Extendible Hash"]
 
-keywords: ["CMU 15445 23fall", "bustub", "Project2", "extendible hash"]
+keywords: ["CMU15445", "Bustub", "Extendible Hash", "Index"]
 
 description: "CMU 15445 23fall Project2 可扩展哈希索引实现过程记录与系统性复习" # 文章描述，与搜索优化相关
 summary: "CMU 15445 23fall Project2 可扩展哈希索引实现过程记录与系统性复习" # 文章简单描述，会展示在主页
@@ -25,8 +25,6 @@ cover:
     alt: ""
     relative: false
 ---
-
-<!-- more -->
 
 ## 项目经历
 
