@@ -58,20 +58,6 @@
       <description></description>
     </item>
     <item>
-      <title>Go</title>
-      <link>http://localhost:1313/categories/go/</link>
-      <pubDate>Mon, 24 Mar 2025 17:01:44 +0800</pubDate>
-      <guid>http://localhost:1313/categories/go/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TinyKV</title>
-      <link>http://localhost:1313/categories/tinykv/</link>
-      <pubDate>Mon, 24 Mar 2025 17:01:44 +0800</pubDate>
-      <guid>http://localhost:1313/categories/tinykv/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Conda</title>
       <link>http://localhost:1313/categories/conda/</link>
       <pubDate>Sun, 23 Mar 2025 10:02:43 +0800</pubDate>

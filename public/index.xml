@@ -30,13 +30,6 @@
       <description>LSM-Tree学习记录</description>
     </item>
     <item>
-      <title>TinyKV Project1 Standalone KV</title>
-      <link>http://localhost:1313/tinykv-project1-standalone-kv/</link>
-      <pubDate>Mon, 24 Mar 2025 17:01:44 +0800</pubDate>
-      <guid>http://localhost:1313/tinykv-project1-standalone-kv/</guid>
-      <description>TinyKV Project1 Standalone KV 实现记录</description>
-    </item>
-    <item>
       <title>Conda基础操作</title>
       <link>http://localhost:1313/conda%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</link>
       <pubDate>Sun, 23 Mar 2025 10:02:43 +0800</pubDate>
