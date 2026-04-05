@@ -6,7 +6,7 @@
     <description>Recent content in 🏠 主页 on tkk&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Apr 2026 11:28:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 11:53:25 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TinyKV Raft Review</title>
@@ -58,11 +58,11 @@
       <description>Windows11配置Ubuntu22.04虚拟机固定IP和VPN代理</description>
     </item>
     <item>
-      <title>CMU 15445 23fall Project4</title>
-      <link>http://localhost:1313/cmu-15445-23fall-project4/</link>
+      <title>Bustub MVCC</title>
+      <link>http://localhost:1313/bustub-mvcc/</link>
       <pubDate>Mon, 10 Feb 2025 18:58:22 +0800</pubDate>
-      <guid>http://localhost:1313/cmu-15445-23fall-project4/</guid>
-      <description>CMU 15445 23fall Project4 实现</description>
+      <guid>http://localhost:1313/bustub-mvcc/</guid>
+      <description>CMU 15445 23fall Project4 实现与 MVCC 深度复习，涵盖版本链、时间戳、并发控制等工程细节</description>
     </item>
     <item>
       <title>BusTub Query Execution</title>
