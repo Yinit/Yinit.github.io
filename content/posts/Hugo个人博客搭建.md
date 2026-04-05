@@ -5,7 +5,7 @@ lastMod: 2025-01-25T15:18:16+08:00
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: [折腾]
+categories: ["折腾"]
 
 tags: [Blog, 建站, Hugo]
 

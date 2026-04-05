@@ -20,7 +20,7 @@ minify:
   minifyOutput: true
 
 permalinks:
-  post: "/:title/"
+  posts: "/:title/"
   # post: "/:year/:month/:day/:title/"
 
 # 全局配置
