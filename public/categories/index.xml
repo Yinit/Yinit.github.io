@@ -6,8 +6,36 @@
     <description>Recent content in Categories on tkk&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 18 Apr 2025 14:28:01 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 06:15:05 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Milvus</title>
+      <link>http://localhost:1313/categories/milvus/</link>
+      <pubDate>Sun, 05 Apr 2026 06:15:05 +0000</pubDate>
+      <guid>http://localhost:1313/categories/milvus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSPP</title>
+      <link>http://localhost:1313/categories/ospp/</link>
+      <pubDate>Sun, 05 Apr 2026 06:15:05 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ospp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SkipIndex</title>
+      <link>http://localhost:1313/categories/skipindex/</link>
+      <pubDate>Sun, 05 Apr 2026 06:15:05 +0000</pubDate>
+      <guid>http://localhost:1313/categories/skipindex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VectorDB</title>
+      <link>http://localhost:1313/categories/vectordb/</link>
+      <pubDate>Sun, 05 Apr 2026 06:15:05 +0000</pubDate>
+      <guid>http://localhost:1313/categories/vectordb/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Database</title>
       <link>http://localhost:1313/categories/database/</link>

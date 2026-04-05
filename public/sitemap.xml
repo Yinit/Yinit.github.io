@@ -3,13 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-18T14:28:01+08:00</lastmod>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-18T14:28:01+08:00</lastmod>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-18T14:28:01+08:00</lastmod>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/milvus/</loc>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/milvus/</loc>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ospp/</loc>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ospp/</loc>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ospp2025-%E5%9B%9E%E9%A1%BE/</loc>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/skipindex/</loc>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/skipindex/</loc>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/vectordb/</loc>
+    <lastmod>2026-04-05T06:15:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/database/</loc>
     <lastmod>2025-03-26T11:04:31+08:00</lastmod>
@@ -22,9 +49,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/lsm-tree/</loc>
     <lastmod>2025-03-26T11:04:31+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-18T14:28:01+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/go/</loc>
     <lastmod>2025-03-24T17:01:44+08:00</lastmod>
