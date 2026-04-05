@@ -1,5 +1,5 @@
 ---
-title: "Bustub B+Tree Index Review"
+title: "Bustub B+Tree Index"
 date: 2025-03-21T15:34:02+08:00
 lastMod: 2026-04-05T10:52:09Z
 draft: false # 是否为草稿

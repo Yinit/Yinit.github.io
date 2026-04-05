@@ -6,7 +6,7 @@
     <description>Recent content in 🏠 主页 on tkk&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Apr 2026 10:52:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 11:09:34 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TinyKV Raft Review</title>
@@ -72,11 +72,11 @@
       <description>CMU 15445 23fall Project3 实现</description>
     </item>
     <item>
-      <title>CMU 15445 23fall Project2</title>
-      <link>http://localhost:1313/cmu-15445-23fall-project2/</link>
+      <title>Bustub Extendible Hash Index</title>
+      <link>http://localhost:1313/bustub-extendible-hash-index/</link>
       <pubDate>Tue, 04 Feb 2025 10:43:27 +0800</pubDate>
-      <guid>http://localhost:1313/cmu-15445-23fall-project2/</guid>
-      <description>CMU 15445 23fall Project2 实现</description>
+      <guid>http://localhost:1313/bustub-extendible-hash-index/</guid>
+      <description>CMU 15445 23fall Project2 可扩展哈希索引实现过程记录与系统性复习</description>
     </item>
     <item>
       <title>Bustub BufferPool Review</title>

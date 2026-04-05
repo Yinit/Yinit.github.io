@@ -1,5 +1,5 @@
 ---
-title: "Bustub BufferPool Review"
+title: "Bustub BufferPool"
 date: 2025-01-27T11:12:32+08:00
 lastMod: 2026-04-05T08:23:32Z
 draft: false # 是否为草稿
