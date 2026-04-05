@@ -6,8 +6,29 @@
     <description>Recent content in Tags on tkk&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Apr 2026 06:15:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 06:58:02 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FullTextIndex</title>
+      <link>http://localhost:1313/tags/fulltextindex/</link>
+      <pubDate>Sun, 05 Apr 2026 06:58:02 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fulltextindex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OceanBase2025</title>
+      <link>http://localhost:1313/tags/oceanbase2025/</link>
+      <pubDate>Sun, 05 Apr 2026 06:58:02 +0000</pubDate>
+      <guid>http://localhost:1313/tags/oceanbase2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VectorDB</title>
+      <link>http://localhost:1313/tags/vectordb/</link>
+      <pubDate>Sun, 05 Apr 2026 06:58:02 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vectordb/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Milvus</title>
       <link>http://localhost:1313/tags/milvus/</link>

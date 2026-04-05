@@ -26,10 +26,6 @@ cover:
     relative: false
 ---
 
-<!-- more -->
-
-# SkipIndex 开源之夏项目复习文档
-
 > **项目名称**：file stats 透传 skip index，更丰富的 skip index \
 > **项目组织**：Milvus（LF AI & Data Foundation）\
 > **参与时间**：2025年6月 — 2025年10月 
