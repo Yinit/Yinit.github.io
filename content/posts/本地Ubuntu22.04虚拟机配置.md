@@ -1,5 +1,5 @@
 ---
-title: "Ubuntu22.04虚拟机配置固定IP和VPN代理记录"
+title: "本地Ubuntu22.04虚拟机配置固定IP和VPN"
 date: 2025-02-27T14:28:01+08:00
 lastMod: 2025-04-18T14:28:01+08:00
 draft: false # 是否为草稿
