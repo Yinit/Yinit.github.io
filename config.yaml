@@ -54,7 +54,7 @@ params:
   hideMeta: false # 隐藏文章元信息
   hideSummary: false # 隐藏文章摘要
   VisitCount: true # 显示访问量
-  comments: false # 是否开启评论
+  comments: false # 填入 Giscus ID 后改为 true 以开启评论
 
   assets:
     # 网站 Favicon 图标相关信息
@@ -147,10 +147,13 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-  # 评论系统
-  artalk:
-    server: https://thekingking.xyz:8080
-    site: tkk's blog
+  # 评论系统 - Giscus
+  # 前往 https://giscus.app/zh-CN 获取以下 ID
+  giscus:
+    repo: "thekingking/thekingking.github.io"
+    repoID: "YOUR_REPO_ID"         # 从 giscus.app 获取
+    category: "Announcements"
+    categoryID: "YOUR_CATEGORY_ID" # 从 giscus.app 获取
 
 # 顶部导航栏
 menu:

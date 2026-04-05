@@ -1,0 +1,37 @@
+<script src="https://giscus.app/client.js"
+  data-repo="{{ site.Params.giscus.repo }}"
+  data-repo-id="{{ site.Params.giscus.repoID }}"
+  data-category="{{ site.Params.giscus.category }}"
+  data-category-id="{{ site.Params.giscus.categoryID }}"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  crossorigin="anonymous"
+  async>
+</script>
+<script>
+  // 同步网站亮/暗主题到 Giscus
+  function setGiscusTheme(theme) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage(
+      { giscus: { setConfig: { theme } } },
+      'https://giscus.app'
+    );
+  }
+
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      // PaperMod 在点击后约 300ms 切换 class，稍作延迟再读取
+      setTimeout(() => {
+        const isDark = document.body.classList.contains('dark');
+        setGiscusTheme(isDark ? 'dark' : 'light');
+      }, 300);
+    });
+  }
+</script>

@@ -3,5 +3,5 @@
 {{- /* Comments area end */ -}}
 
 {{ if or .Params.comments .Site.Params.comments }}
-<div class="article-comments">{{- partial "artalk.html" .}}</div>
+<div class="article-comments">{{- partial "giscus.html" .}}</div>
 {{ end }}
