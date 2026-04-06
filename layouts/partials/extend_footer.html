@@ -2,6 +2,46 @@
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
 
+<!-- GitHub 导航卡片：动态获取 star/fork 数，移除外链跳转图标 -->
+<script>
+  (function () {
+    // 移除外链箭头图标（SVG）和 &nbsp; 文本节点
+    var ghLink = document.querySelector('#menu a[href*="github.com/thekingking"]');
+    if (ghLink) {
+      Array.from(ghLink.childNodes).forEach(function (node) {
+        if (node.nodeName.toLowerCase() !== 'span') {
+          ghLink.removeChild(node);
+        }
+      });
+    }
+
+    function fmt(n) {
+      return n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : String(n);
+    }
+
+    function apply(stars, forks) {
+      var els = document.querySelectorAll('.gh-nav-stars .gh-num, .gh-nav-forks .gh-num');
+      if (els[0]) els[0].textContent = fmt(stars);
+      if (els[1]) els[1].textContent = fmt(forks);
+    }
+
+    var KEY = 'gh_nav_cache', TTL = 3600000;
+    try {
+      var c = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (c && Date.now() - c.t < TTL) { apply(c.s, c.f); return; }
+    } catch (e) {}
+
+    fetch('https://api.github.com/repos/thekingking/thekingking.github.io')
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        var s = d.stargazers_count || 0, f = d.forks_count || 0;
+        apply(s, f);
+        try { localStorage.setItem(KEY, JSON.stringify({ s: s, f: f, t: Date.now() })); } catch (e) {}
+      })
+      .catch(function () {});
+  })();
+</script>
+
 <!-- 向上滚动时显示 header -->
 <script>
   (function () {
