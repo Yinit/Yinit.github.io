@@ -2,6 +2,45 @@
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
 
+<!-- 向上滚动时显示 header -->
+<script>
+  (function () {
+    var header = document.querySelector('.header');
+    if (!header) return;
+
+    var lastScrollY = window.scrollY;
+    var ticking = false;
+
+    function updateHeader() {
+      var currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 60) {
+        // 向下滚动：隐藏 header
+        header.classList.add('header--hidden');
+      } else {
+        // 向上滚动或回到顶部：显示 header
+        header.classList.remove('header--hidden');
+      }
+
+      if (currentScrollY > 10) {
+        header.classList.add('header--scrolled');
+      } else {
+        header.classList.remove('header--scrolled');
+      }
+
+      lastScrollY = currentScrollY;
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        window.requestAnimationFrame(updateHeader);
+        ticking = true;
+      }
+    }, { passive: true });
+  })();
+</script>
+
 <!-- 自动中英文留有空白「盘古之白」 -->
 {{- $highlight := resources.Get "js/pangu.min.js" }}
 <script>

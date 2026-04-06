@@ -47,3 +47,28 @@ img.active {
   min-height: 220px;
   margin: 0;
 }
+
+/* ===== 向上滚动时显示 header ===== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--theme);
+  transform: translateY(0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header.header--hidden {
+  transform: translateY(-100%);
+}
+
+.header.header--scrolled {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* 补偿 fixed header 占用的高度 */
+.main {
+  padding-top: calc(var(--header-height) + var(--gap));
+}
