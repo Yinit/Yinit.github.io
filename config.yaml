@@ -54,7 +54,7 @@ params:
   hideMeta: false # 隐藏文章元信息
   hideSummary: false # 隐藏文章摘要
   VisitCount: true # 显示访问量
-  comments: false # 填入 Giscus ID 后改为 true 以开启评论
+  comments: true # 填入 Giscus ID 后改为 true 以开启评论
 
   assets:
     # 网站 Favicon 图标相关信息
@@ -151,9 +151,9 @@ params:
   # 前往 https://giscus.app/zh-CN 获取以下 ID
   giscus:
     repo: "thekingking/thekingking.github.io"
-    repoID: "YOUR_REPO_ID"         # 从 giscus.app 获取
+    repoID: "R_kgDONuVD4g"         # 从 giscus.app 获取
     category: "Announcements"
-    categoryID: "YOUR_CATEGORY_ID" # 从 giscus.app 获取
+    categoryID: "DIC_kwDONuVD4s4C6HF9" # 从 giscus.app 获取
 
 # 顶部导航栏
 menu:
