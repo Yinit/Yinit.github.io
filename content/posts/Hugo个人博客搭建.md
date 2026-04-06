@@ -15,7 +15,7 @@ description: "Hugo + PaperMod + GithubPages 搭建个人博客网站。搭建流
 summary: "使用Hugo + PaperMod + GithubPages 搭建个人博客网站" # 文章简单描述，会展示在主页
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
-comments: false
+comments: true
 autoNumbering: true # 目录自动编号
 hideMeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 mermaid: true

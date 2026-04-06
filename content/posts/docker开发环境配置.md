@@ -15,7 +15,7 @@ description: "docker中开启VPN虚拟网卡模式，劫持全局流量，高权
 summary: "docker中开启VPN虚拟网卡模式，劫持全局流量，高权限全局代理沙盒开发环境" # 文章简单描述，会展示在主页
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
-comments: false
+comments: true
 autoNumbering: true # 目录自动编号
 hideMeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 mermaid: true
