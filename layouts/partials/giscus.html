@@ -10,6 +10,7 @@
   data-input-position="top"
   data-theme="preferred_color_scheme"
   data-lang="zh-CN"
+  data-loading="lazy"
   crossorigin="anonymous"
   async>
 </script>
@@ -24,8 +25,10 @@
     );
   }
 
-  const themeToggle = document.getElementById('theme-toggle');
-  if (themeToggle) {
+  // 懒加载场景下 iframe 出现时机不确定，用 MutationObserver 等待其插入
+  function watchThemeToggle() {
+    const themeToggle = document.getElementById('theme-toggle');
+    if (!themeToggle) return;
     themeToggle.addEventListener('click', () => {
       // PaperMod 在点击后约 300ms 切换 class，稍作延迟再读取
       setTimeout(() => {
@@ -34,4 +37,13 @@
       }, 300);
     });
   }
+
+  // 等待 giscus iframe 插入 DOM 后再绑定主题切换事件
+  const observer = new MutationObserver(() => {
+    if (document.querySelector('iframe.giscus-frame')) {
+      observer.disconnect();
+      watchThemeToggle();
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
 </script>
