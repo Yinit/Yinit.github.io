@@ -5,11 +5,11 @@ lastMod: 2026-04-05T08:23:32Z
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: ["CMU15445", "Bustub", "BufferPool"]
+categories: ["数据库"]
 
 tags: ["CMU15445", "Bustub", "BufferPool"]
 
-keywords: ["CMU15445", "Bustub", "BufferPool", "Milvus"]
+keywords: ["CMU15445", "Bustub", "缓冲池", "Milvus"]
 
 description: "CMU 15445 BusTub Project1 实现、优化与工业级缓存池设计演变（以 Milvus 为例）" # 文章描述，与搜索优化相关
 summary: "从 CMU 15445 BusTub Project1 的实现经历出发，深入解析缓存池设计，并对比 Milvus 工业级缓存池实现" # 文章简单描述，会展示在主页

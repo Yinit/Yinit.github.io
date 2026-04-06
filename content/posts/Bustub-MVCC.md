@@ -5,11 +5,11 @@ lastMod: 2026-04-05T11:53:25Z
 draft: false
 author: ["tkk"]
 
-categories: ["CMU15445", "Bustub", "MVCC"]
+categories: ["数据库"]
 
 tags: ["CMU15445", "Bustub", "MVCC"]
 
-keywords: ["CMU15445", "Bustub", "MVCC"]
+keywords: ["CMU15445", "Bustub", "MVCC", "并发控制"]
 
 description: "CMU 15445 23fall Project4 实现与 MVCC 深度复习，涵盖版本链、时间戳、并发控制等工程细节"
 summary: "从 Project4 实现出发，系统复习 BusTub MVCC 设计原理和工程细节"

@@ -5,11 +5,11 @@ lastMod: 2026-04-05T11:28:24Z
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: ["CMU15445", "Bustub", "Query Execution"]
+categories: ["数据库"]
 
-tags: ["CMU15445", "Bustub", "Query Execution"]
+tags: ["CMU15445", "Bustub", "查询执行"]
 
-keywords: ["CMU15445", "Bustub", "Query Execution"]
+keywords: ["CMU15445", "Bustub", "查询执行", "Query Execution"]
 
 description: "CMU 15445 23fall Project3 Query Execution 实现与深度复习" # 文章描述，与搜索优化相关
 summary: "CMU 15445 23fall Project3 Query Execution 实现与深度复习" # 文章简单描述，会展示在主页

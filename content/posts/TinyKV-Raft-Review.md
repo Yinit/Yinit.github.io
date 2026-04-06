@@ -5,11 +5,11 @@ lastMod: 2026-04-05T07:53:47Z
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: ["TinyKV", "Raft"]
+categories: ["数据库"]
 
-tags: ["TinyKV", "Raft"]
+tags: ["TinyKV", "Raft", "分布式"]
 
-keywords: ["TinyKV", "Raft"]
+keywords: ["TinyKV", "Raft", "分布式KV", "一致性协议"]
 
 description: "深入解析 TinyKV Project2 Raft 协议实现，涵盖选举、日志复制、快照机制与 etcd 工程化设计细节" # 文章描述，与搜索优化相关
 summary: "深入解析 TinyKV Raft 实现，涵盖 Leader 选举、日志复制、安全性保证与 etcd 工程化设计" # 文章简单描述，会展示在主页

@@ -7,9 +7,9 @@ author: ["tkk"]
 
 categories: ["折腾"]
 
-tags: [Blog, 建站, Hugo]
+tags: ["Hugo", "建站", "Blog"]
 
-keywords: [Hugo, Blog, 建站]
+keywords: ["Hugo", "PaperMod", "GitHub Pages", "建站"]
 
 description: "Hugo + PaperMod + GithubPages 搭建个人博客网站。搭建流程为我个人搭建过程，仅供参考" # 文章描述，与搜索优化相关
 summary: "使用Hugo + PaperMod + GithubPages 搭建个人博客网站" # 文章简单描述，会展示在主页

@@ -5,11 +5,11 @@ lastMod: 2026-04-05T10:52:09Z
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: ["CMU15445", "Bustub", "B+Tree"]
+categories: ["数据库"]
 
 tags: ["CMU15445", "Bustub", "B+Tree"]
 
-keywords: ["CMU15445", "Bustub", "B+Tree", "Index"]
+keywords: ["CMU15445", "Bustub", "B+Tree", "索引", "并发控制"]
 
 description: "CMU 15445 24fall Project2 Bustub B+Tree Index 实现细节、并发控制与复习总结" # 文章描述，与搜索优化相关
 summary: "CMU 15445 24fall Project2 Bustub B+Tree Index 实现细节、并发控制与复习总结" # 文章简单描述，会展示在主页

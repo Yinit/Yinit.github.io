@@ -5,11 +5,11 @@ lastMod: 2025-03-26T11:04:31+08:00
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: [database]
+categories: ["数据库"]
 
-tags: [LSM-Tree, database]
+tags: ["LSM-Tree", "存储引擎"]
 
-keywords: [LSM-Tree, database]
+keywords: ["LSM-Tree", "存储引擎", "数据库"]
 
 description: "LSM-Tree学习记录" # 文章描述，与搜索优化相关
 summary: "LSM-Tree学习记录" # 文章简单描述，会展示在主页

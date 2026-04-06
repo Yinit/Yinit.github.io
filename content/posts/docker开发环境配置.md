@@ -5,11 +5,11 @@ lastMod: 2026-04-05T13:38:48Z
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: ["docker", "开发环境配置"]
+categories: ["开发环境"]
 
-tags: ["docker", "开发环境配置"]
+tags: ["Docker", "开发环境"]
 
-keywords: ["docker", "开发环境配置"]
+keywords: ["Docker", "开发环境", "容器", "VPN"]
 
 description: "docker中开启VPN虚拟网卡模式，劫持全局流量，高权限全局代理沙盒开发环境" # 文章描述，与搜索优化相关
 summary: "docker中开启VPN虚拟网卡模式，劫持全局流量，高权限全局代理沙盒开发环境" # 文章简单描述，会展示在主页

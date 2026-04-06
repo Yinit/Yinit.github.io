@@ -5,11 +5,11 @@ lastMod: 2026-04-05T06:58:02Z
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: ["OceanBase2025", "VectorDB", "FullTextIndex"]
+categories: ["数据库"]
 
-tags: ["OceanBase2025", "VectorDB", "FullTextIndex"]
+tags: ["OceanBase", "向量检索", "全文索引"]
 
-keywords: ["OceanBase2025", "VectorDB", "FullTextIndex"]
+keywords: ["OceanBase", "VectorDB", "全文索引", "数据库竞赛"]
 
 description: "OceanBase2025 大赛 内核赛道部分回顾" # 文章描述，与搜索优化相关
 summary: "OceanBase2025 大赛 内核赛道部分回顾" # 文章简单描述，会展示在主页

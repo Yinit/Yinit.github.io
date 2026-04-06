@@ -5,11 +5,11 @@ lastMod: 2025-04-18T14:28:01+08:00
 draft: false # 是否为草稿
 author: ["tkk"]
 
-categories: [Ubuntu22.04, 虚拟机]
+categories: ["开发环境"]
 
-tags: [Ubuntu22.04, 虚拟机, 固定IP, VPN]
+tags: ["Ubuntu", "虚拟机", "Linux"]
 
-keywords: [Ubuntu22.04, 虚拟机, 固定IP, VPN]
+keywords: ["Ubuntu22.04", "虚拟机", "固定IP", "VPN"]
 
 description: "Windows11配置Ubuntu22.04虚拟机固定IP和VPN代理" # 文章描述，与搜索优化相关
 summary: "在Windows11上为VMware搭建的Ubuntu22.04虚拟机配置固定IP地址，共享主机VPN代理" # 文章简单描述，会展示在主页
