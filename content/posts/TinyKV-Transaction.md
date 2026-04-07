@@ -330,7 +330,7 @@ type ReadView struct {
 **可见性判断规则**（对某行的 `trx_id` 进行判断）：
 
 ```
-1. trx_id == m_creator_trx_id  → 可��（自己修改的，当然能读）
+1. trx_id == m_creator_trx_id  → 可见（自己修改的，当然能读）
 2. trx_id < m_up_limit_id      → 可见（创建 Read View 前已提交）
 3. trx_id >= m_low_limit_id    → 不可见（创建 Read View 后才开始的事务）
 4. m_up_limit_id <= trx_id < m_low_limit_id:
