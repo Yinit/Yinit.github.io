@@ -2721,19 +2721,19 @@ txn.PutWrite(key, req.CommitVersion, &mvcc.Write{StartTs: req.StartVersion, Kind
 
 ---
 
-## 11. 代码索引与附录
+## 10. 代码索引与附录
 
-### 11.1 核心代码文件
+### 10.1 核心代码文件
 
 | 文件                                                         | 内容             | 关键函数                                                     |
 | ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ |
-| [kv/transaction/mvcc/transaction.go](kv/transaction/mvcc/transaction.go) | MvccTxn 核心实现 | `GetLock`, `PutLock`, `GetValue`, `PutValue`, `CurrentWrite`, `MostRecentWrite`, `EncodeKey` |
-| [kv/transaction/mvcc/scanner.go](kv/transaction/mvcc/scanner.go) | 范围扫描实现     | `NewScanner`, `Next`, `Close`                                |
-| [kv/server/server.go](kv/server/server.go)                   | RPC 处理器       | `KvGet`, `KvPrewrite`, `KvCommit`, `KvScan`, `KvCheckTxnStatus`, `KvBatchRollback`, `KvResolveLock` |
-| [kv/transaction/mvcc/lock.go](kv/transaction/mvcc/lock.go)   | Lock 结构体      | `ParseLock`, `Lock.ToBytes`, `Lock.Info`                     |
-| [kv/transaction/mvcc/write.go](kv/transaction/mvcc/write.go) | Write 结构体     | `ParseWrite`, `Write.ToBytes`                                |
+| kv/transaction/mvcc/transaction.go | MvccTxn 核心实现 | `GetLock`, `PutLock`, `GetValue`, `PutValue`, `CurrentWrite`, `MostRecentWrite`, `EncodeKey` |
+| kv/transaction/mvcc/scanner.go | 范围扫描实现     | `NewScanner`, `Next`, `Close`                                |
+| kv/server/server.go                 | RPC 处理器       | `KvGet`, `KvPrewrite`, `KvCommit`, `KvScan`, `KvCheckTxnStatus`, `KvBatchRollback`, `KvResolveLock` |
+| kv/transaction/mvcc/lock.go   | Lock 结构体      | `ParseLock`, `Lock.ToBytes`, `Lock.Info`                     |
+| kv/transaction/mvcc/write.go | Write 结构体     | `ParseWrite`, `Write.ToBytes`                                |
 
-### 11.2 关键常量与类型
+### 10.2 关键常量与类型
 
 ```go
 // Column Families
@@ -2754,7 +2754,7 @@ mvcc.LockKindDelete
 mvcc.TsMax = math.MaxUint64  // 最大时间戳，用于 Seek 最新版本
 ```
 
-### 11.3 Percolator 事务流程速查
+### 10.3 Percolator 事务流程速查
 
 ```
 事务生命周期：
@@ -2780,7 +2780,7 @@ mvcc.TsMax = math.MaxUint64  // 最大时间戳，用于 Seek 最新版本
    b. ResolveLock(startTS, commitTS) → 批量解决所有锁
 ```
 
-### 11.4 隔离级别与 Percolator 对应关系
+### 10.4 隔离级别与 Percolator 对应关系
 
 | 隔离级别            | 单机 InnoDB 实现         | Percolator 对应                            |
 | ------------------- | ------------------------ | ------------------------------------------ |
@@ -2791,7 +2791,7 @@ mvcc.TsMax = math.MaxUint64  // 最大时间戳，用于 Seek 最新版本
 
 TinyKV 的实现达到快照隔离（SI），近似于可重复读（RR），但不等同于 SQL 标准的 SERIALIZABLE。
 
-### 11.5 参考资料
+### 10.5 参考资料
 
 1. **Percolator 论文**：Google, "Large-scale Incremental Processing Using Distributed Transactions and Notifications", OSDI 2010
 2. **Spanner 论文**：Google, "Spanner: Google's Globally Distributed Database", TOCS 2013
