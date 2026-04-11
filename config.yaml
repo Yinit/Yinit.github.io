@@ -151,9 +151,9 @@ params:
   # 前往 https://giscus.app/zh-CN 获取以下 ID
   giscus:
     repo: "Yinit/Yinit.github.io"
-    repoID: "R_kgDONuVD4g"         # 从 giscus.app 获取
+    repoID: "R_kgDOR_jBiA"         # 从 giscus.app 获取
     category: "Announcements"
-    categoryID: "DIC_kwDONuVD4s4C6HF9" # 从 giscus.app 获取
+    categoryID: "DIC_kwDOR_jBiM4C6klt" # 从 giscus.app 获取
 
 # 顶部导航栏
 menu:
