@@ -117,6 +117,6 @@ img.active {
 }
 
 /* 隐藏外链跳转图标 */
-#menu a[href*="github.com/thekingking"] > svg {
+#menu a[href*="github.com/Yinit"] > svg {
   display: none;
 }

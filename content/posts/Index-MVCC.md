@@ -3,7 +3,7 @@ title: "索引结构与 MVCC：B+Tree、LSM-Tree 与 Bw-Tree 的设计对比"
 date: 2026-04-06T09:56:16Z
 lastMod: 2026-04-06T09:56:16Z
 draft: false # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["数据库"]
 

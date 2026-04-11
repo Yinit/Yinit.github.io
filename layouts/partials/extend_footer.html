@@ -6,7 +6,7 @@
 <script>
   (function () {
     // 移除外链箭头图标（SVG）和 &nbsp; 文本节点
-    var ghLink = document.querySelector('#menu a[href*="github.com/thekingking"]');
+    var ghLink = document.querySelector('#menu a[href*="github.com/Yinit"]');
     if (ghLink) {
       Array.from(ghLink.childNodes).forEach(function (node) {
         if (node.nodeName.toLowerCase() !== 'span') {
@@ -31,7 +31,7 @@
       if (c && Date.now() - c.t < TTL) { apply(c.s, c.f); return; }
     } catch (e) {}
 
-    fetch('https://api.github.com/repos/thekingking/thekingking.github.io')
+    fetch('https://api.github.com/repos/Yinit/Yinit.github.io')
       .then(function (r) { return r.json(); })
       .then(function (d) {
         var s = d.stargazers_count || 0, f = d.forks_count || 0;

@@ -3,7 +3,7 @@ title: "Bustub Extendible Hash Index"
 date: 2025-02-04T10:43:27+08:00
 lastMod: 2026-04-05T11:09:34Z
 draft: false # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["数据库"]
 

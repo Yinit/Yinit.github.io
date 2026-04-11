@@ -3,7 +3,7 @@ title: "Hugo个人博客搭建"
 date: 2025-01-25T15:18:16+08:00
 lastMod: 2025-01-25T15:18:16+08:00
 draft: false # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["折腾"]
 
@@ -343,7 +343,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: []
 

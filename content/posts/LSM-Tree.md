@@ -3,7 +3,7 @@ title: "LSM Tree"
 date: 2025-03-25T11:04:31+08:00
 lastMod: 2025-03-26T11:04:31+08:00
 draft: false # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["数据库"]
 

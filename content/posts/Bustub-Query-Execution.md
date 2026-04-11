@@ -3,7 +3,7 @@ title: "BusTub Query Execution"
 date: 2025-02-04T17:01:06+08:00
 lastMod: 2026-04-05T11:28:24Z
 draft: false # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["数据库"]
 

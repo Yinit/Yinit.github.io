@@ -3,7 +3,7 @@ title: "TinyKV 分布式事务实现与复习"
 date: 2026-04-07T06:58:45Z
 lastMod: 2026-04-07T06:58:45Z
 draft: false # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["数据库"]
 

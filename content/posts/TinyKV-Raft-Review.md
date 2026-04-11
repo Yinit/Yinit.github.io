@@ -3,7 +3,7 @@ title: "TinyKV Raft Review"
 date: 2026-04-05T07:53:47Z
 lastMod: 2026-04-05T07:53:47Z
 draft: false # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["数据库"]
 

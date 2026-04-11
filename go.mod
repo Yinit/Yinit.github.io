@@ -1,4 +1,4 @@
-module github.com/thekingking/thekingking.github.io
+module github.com/Yinit/Yinit.github.io
 
 go 1.23.3
 

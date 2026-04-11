@@ -19,8 +19,8 @@ hugo version
 PaperMod 主题以 git submodule 方式管理，clone 后需要单独初始化：
 
 ```bash
-git clone git@github.com:thekingking/thekingking.github.io.git
-cd thekingking.github.io
+git clone git@github.com:Yinit/Yinit.github.io.git
+cd Yinit.github.io
 
 # 初始化并拉取 submodule（PaperMod 主题）
 git submodule update --init --recursive
@@ -60,7 +60,7 @@ title: "文章标题"
 date: 2026-04-05
 lastMod: 2026-04-05
 draft: true          # true=草稿（本地 -D 可见，不会发布）
-author: ["tkk"]
+author: ["Yinit"]
 categories: []
 tags: []
 description: ""      # SEO 描述

@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastMod: {{ .Date }}
 draft: true # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: []
 

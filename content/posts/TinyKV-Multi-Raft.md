@@ -3,7 +3,7 @@ title: "TinyKV Multi-Raft 实现与复习"
 date: 2026-04-07T06:50:10Z
 lastMod: 2026-04-07T06:50:10Z
 draft: false # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["数据库"]
 

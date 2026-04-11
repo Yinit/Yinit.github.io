@@ -3,7 +3,7 @@ title: "OceanBase2025 决赛回顾"
 date: 2026-04-05T06:58:02Z
 lastMod: 2026-04-05T06:58:02Z
 draft: false # 是否为草稿
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["数据库"]
 

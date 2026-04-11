@@ -3,7 +3,7 @@ title: "Bustub MVCC"
 date: 2025-02-10T18:58:22+08:00
 lastMod: 2026-04-05T11:53:25Z
 draft: false
-author: ["tkk"]
+author: ["Yinit"]
 
 categories: ["数据库"]
 
@@ -827,4 +827,4 @@ T3(read_ts=4) 读这行:
 
 最后，感谢 CMU 15445 的老师和助教们的辛勤付出。
 
-考虑到网上实现最后这部分内容的文章比较少，代码也是没有，我把我的[代码](https://github.com/thekingking/bustub)放在这，这部分课程也是即将结束，应该也没几个人写了，有兴趣的同学可以参考一下。
+考虑到网上实现最后这部分内容的文章比较少，代码也是没有，我把我的[代码](https://github.com/Yinit/bustub)放在这，这部分课程也是即将结束，应该也没几个人写了，有兴趣的同学可以参考一下。
